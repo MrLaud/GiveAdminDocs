@@ -6,6 +6,11 @@ hero:
   name: "GiveAdmin"
   text: "GiveAdmin Docs"
   tagline: My great project tagline
+  image:
+    # 首页右边的图片
+    src: /avartar-home.png
+    # 图片的描述
+    alt: avatar
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,4 +27,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-

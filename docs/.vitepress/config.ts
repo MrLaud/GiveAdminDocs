@@ -2,15 +2,16 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/give-admin/',
   title: "GiveAdmin",
   description: "GiveAdmin Docs",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: '/avartar.png',
     nav: [
-      { text: 'Home', link: '/' },
-      { text: '学习', link: '/study/front-end/vue' }
+      { text: '✨指南', link: '/' },
+      { text: '📝学习', link: '/study/front-end/vue' }
     ],
-
     // sidebar: [
     //   {
     //     text: 'Examples',
@@ -29,6 +30,7 @@ export default defineConfig({
           items: [
             { text: 'vue', link: '/study/front-end/vue' },
             { text: 'vitepress', link: '/study/front-end/vitepress' },
+            { text: 'Nodejs', link: '/study/front-end/node_js' },
           ]
         },
         {
