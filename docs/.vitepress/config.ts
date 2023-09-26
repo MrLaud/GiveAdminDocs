@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base: '/give-admin/',
+  base: '/GiveAdminDocs/',
   title: "GiveAdmin",
   description: "GiveAdmin Docs",
   themeConfig: {
