@@ -11,7 +11,7 @@ cd docs/.vitepress/dist
 
 git init
 git add -A
-git commit -m'deploy'
+git commit -m 'deploy'
 
 # MrLaud/GiveAdminDocs 替换为自己的用户名和对应的仓库名
 # 意思为将master构建后的代码合并到gh-pages分支上，然后在gh-pages分支上部署~
