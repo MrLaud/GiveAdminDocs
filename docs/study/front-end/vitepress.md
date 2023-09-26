@@ -24,27 +24,49 @@ sudo npm install -g pnpm
 ```bash
 npm add -D vitepress
 ```
-::: details package.json 添加下面代码
-```js
-"type": "module",  // [!code  ++]
-"pnpm": {
-    "peerDependencyRules": {  // [!code  focus]
+package.json 添加下面代码
+
+```js{5-13}
+{
+    "devDependencies": {
+        "vitepress": "^1.0.0-rc.20"
+    },
+    "type": "module",
+    "pnpm": {
+        "peerDependencyRules": {
         "ignoreMissing": [
-        "@algolia/client-search",
-        "search-insights"
+            "@algolia/client-search",
+            "search-insights"
         ]
+        }
     }
 }
 ```
-:::
-
-
-```js
-export default {
-  data () {
-    return {
-      msg: 'Focused!' // [!code  focus]
-    }
-  }
-}
+#### 初始化
+```bash
+pnpm dlx vitepress init
+```
+你会遇到几个简单的问题:
+```bash
+┌  Welcome to VitePress!
+│
+◇  Where should VitePress initialize the config?
+│  ./docs
+│
+◇  Site title:
+│  GiveAdmin
+│
+◇  Site description:
+│  GiveAdmin Docs
+│
+◇  Theme:
+│  Default Theme + Customization
+│
+◇  Use TypeScript for config and theme files?
+│  Yes
+│
+◇  Add VitePress npm scripts to package.json?
+│  Yes
+│
+└  Done! Now run pnpm run docs:dev and start writing.
 ```
