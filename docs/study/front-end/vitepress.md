@@ -82,7 +82,7 @@ pnpm dlx vitepress init
 
 #### 运行测试: `pnpm run docs:dev`
 
-<!-- ![Alt text](../../study/front-end/vitepress/001.png) -->
+![Alt text](../../public/study/front-end/vitepress/001.png)
 
 ## 部署
 
