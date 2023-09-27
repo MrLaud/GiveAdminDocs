@@ -82,13 +82,13 @@ pnpm dlx vitepress init
 
 #### 运行测试: `pnpm run docs:dev`
 
-![Alt text](../../study/front-end/vitepress/001.png)
+<!-- ![Alt text](../../study/front-end/vitepress/001.png) -->
 
 ## 部署
 
 ### 创建 GitHub 项目
 
-![Alt text](../../study/front-end/vitepress/002.png)
+<!-- ![Alt text](../../study/front-end/vitepress/002.png) -->
 
 ### 上传代码到 GitHub
 
@@ -165,7 +165,7 @@ git push
 pnpm run deploy
 ```
 
-![Alt text](../../study/front-end/vitepress/003.png)
+<!-- ![Alt text](../../study/front-end/vitepress/003.png) -->
 
 **访问地址**
 https://mrlaud.github.io/vitepress-demo/
